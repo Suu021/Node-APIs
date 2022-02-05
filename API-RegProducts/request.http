@@ -1,0 +1,25 @@
+POST http://localhost:8081/products
+content-type: application/json
+
+{
+    "name": "notebook Lenovo",
+    "price": 2500
+}
+
+###
+GET http://localhost:8081/products
+
+###
+GET http://localhost:8081/products/dd12cede-7102-4991-9b5b-d4223d9fc9f0
+
+###
+PUT http://localhost:8081/products/d935bacd-1e8d-448d-8d93-866135db1c4d
+content-type: application/json
+
+{
+    "name": "teste put",
+    "price": 485
+}
+
+###
+DELETE http://localhost:8081/products/4dd71e1f-2169-469c-82c7-bdc9efc3f3d8
