@@ -1,0 +1,12 @@
+{
+  "name": "api-streamv",
+  "version": "1.0.0",
+  "description": "An stream of videos API",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suu Kirinus Nogueira",
+  "license": "MIT"
+}
